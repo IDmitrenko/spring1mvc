@@ -33,12 +33,12 @@ public class StudentsController {
         return student;
     }
 
-//    @RequestMapping(path = "/showStudentById/{sid}", method = RequestMethod.GET)
-//    @ResponseBody
-//    public Student showStudentById(@PathVariable("sid") int id) {
-//        Student student = studentsService.getStudentById(id);
-//        return student;
-//    }
+    @RequestMapping(path = "/showStudentById/{sid}", method = RequestMethod.GET)
+    @ResponseBody
+    public Student showStudentById(@PathVariable("sid") int id) {
+        Student student = studentsService.getStudentById(id);
+        return student;
+    }
 
     @RequestMapping(path = "/setStudentById", method = RequestMethod.POST)
     public void setStudent(@RequestBody Student student) {
