@@ -6,7 +6,7 @@
 <body>
 <h1>Product Form Result</h1>
 <br>
-id: ${product.id}
+id:    ${product.id}
 <br>
 title: ${product.title}
 <br>

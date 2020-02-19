@@ -4,10 +4,12 @@
 
 <html>
 <body>
-<form:form action="resultForm" modelAttribute="product">
-    title: <form:input path="title" />
+<form:form action="productForm" modelAttribute="product">
+    Id:    <form:input path="id" />
     <br>
-    cost: <form:input path="cost" />
+    Title: <form:input path="title" />
+    <br>
+    Cost: <form:input path="cost" />
     <br>
     <input type="submit" value="Submit" />
 </form:form>
